@@ -5,6 +5,7 @@ class MitsException extends RuntimeException{
         System.out.println(s);
     }
 }
+//Changed
 public class Exception{
     public static void main(String[] args){
        try{
