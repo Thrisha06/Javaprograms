@@ -13,6 +13,7 @@ public class Exception{
         System.out.println(c);
        }catch(ArithmeticException e) {
 		e.printStackTrace();
+        //Exception
 	}
     }
 }
