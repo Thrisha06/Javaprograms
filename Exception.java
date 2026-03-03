@@ -14,6 +14,7 @@ public class Exception{
        }catch(ArithmeticException e) {
 		e.printStackTrace();
         //Exception
+
 	}
     }
 }
