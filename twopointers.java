@@ -1,0 +1,17 @@
+public class twopointers {
+    public static void main(String[] args){
+        String s="madam";
+        int l=0;
+        int r=s.length()-1;
+        while(l<r){
+            if(s.charAt(l)!=s.charAt(r)){
+                System.out.println("Not a palindrome");
+                return;
+            }
+            l++;
+            r--;
+        }
+        System.out.println("Is a palindrome");
+    }
+    
+}
