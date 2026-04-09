@@ -3,9 +3,9 @@ public class perfectnumbers {
         for(int num=1;num<1000;num++){
             int sum=0;
             for(int i=1;i<num;i++){
-                // if(sum>num){
-                //     break;
-                // }
+                if(sum>num){
+                    break;
+                }
                 if(num%i==0){
                     sum+=i;
                 
